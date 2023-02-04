@@ -1,0 +1,7 @@
+DYNO_TEST :
+
+Power Reading = 10000 Pesos
+
+DYNO_TEST  Woker:
+
+S1 = 5 available

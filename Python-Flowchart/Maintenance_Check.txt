@@ -1,0 +1,7 @@
+Maintenance_Check:
+
+General Check-up = 15000 Pesos     Engine Check-Up = 6000 Pesos
+
+Maintenance Woker:
+
+S1 = 13 available               S2 = 23 available

@@ -1,0 +1,7 @@
+ECU_remap :
+
+Stock ECU Remap  = 15000 Pesos     Brand New ECU Tuning = 10000 Pesos
+
+ECU_remap  Woker:
+
+S1 = 1 available           S2 = 2 available

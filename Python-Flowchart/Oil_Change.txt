@@ -1,0 +1,7 @@
+Oil_Change:
+
+Synthetic Oil  =  7000 Pesos     Non-Synthetic Oil =  5000 Pesos
+
+Oil_Change Woker:
+
+S1 = 3 available           S2 = 5 available

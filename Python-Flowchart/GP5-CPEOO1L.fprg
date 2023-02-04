@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-02-04 09:10:17 pm"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtPQi0xOTsyMDIzLTAyLTA0OzA4OjEyOjQ3IHBtOzMwMTY="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtPQi0xOTsyMDIzLTAyLTA0OzA5OjEwOjE3IHBtOzE7MzEyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;=====WELCOME TO DDGR MOTORSPORTS!!=====&quot;" newline="True"/>
+            <output expression="&quot;====SALE 10%=//=SALE 10%=//=SALE 10%===\n &quot;" newline="True"/>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <declare name="address" type="String" array="False" size=""/>
+            <output expression="&quot;What is your full name?: &quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Hello &quot; &amp; name" newline="True"/>
+            <output expression="&quot; Please enter your contact number?:  &quot;" newline="True"/>
+            <input variable="number"/>
+            <output expression="number &amp; &quot; Number Comfirmed&quot;" newline="True"/>
+            <output expression="&quot; Please enter your Email Address?: &quot;" newline="True"/>
+            <input variable="address"/>
+            <output expression="address  &amp; &quot; Email Comfirmed&quot;" newline="True"/>
+            <output expression="&quot;Welcome Dear Costumer&quot;" newline="True"/>
+            <output expression="&quot;Here's a list of Services&quot;" newline="True"/>
+            <output expression="&quot;1 - Electrical Repairs&quot;" newline="True"/>
+            <output expression="&quot;2 - Maintenance Check&quot;" newline="True"/>
+            <output expression="&quot;3 - AC Repairs&quot;" newline="True"/>
+            <output expression="&quot;4 - Paint Job&quot;" newline="True"/>
+            <output expression="&quot;5 - Oil Change&quot;" newline="True"/>
+            <output expression="&quot;6 - ECU REMAP&quot;" newline="True"/>
+            <output expression="&quot;7 - DYNO TEST&quot;" newline="True"/>
+            <declare name="items" type="String" array="False" size=""/>
+            <output expression="&quot;Please select a number of the service type that you want to choose: &quot;" newline="True"/>
+            <input variable="items"/>
+            <output expression="&quot;You have chosen &quot; &amp; items" newline="True"/>
+            <output expression="&quot;Chosen Service: &quot;" newline="True"/>
+            <output expression="&quot;Stock 1 = 2500 Pesos    Stock 2  = 3000 Pesos&quot;" newline="True"/>
+            <output expression="&quot;Stock 1 = 2000 Pesos    Stock 4  = 4000 Pesos&quot;" newline="True"/>
+            <output expression="&quot;Chosen Service: &quot;" newline="True"/>
+            <output expression="&quot;S1 = 8 available        S2 = 3 available&quot;" newline="True"/>
+            <output expression="&quot;S3 = 2 available        S4 = 2 available&quot;" newline="True"/>
+            <declare name="inputappoint" type="Boolean" array="False" size=""/>
+            <assign variable="inputappoint" expression="True"/>
+            <declare name="Again" type="String" array="False" size=""/>
+            <while expression="inputappoint == True">
+                <output expression="&quot;Would you like to book for an appointment? (yes/no): &quot;" newline="True"/>
+                <input variable="Again"/>
+                <if expression="Again == &quot;no&quot;">
+                    <then>
+                        <assign variable="inputappoint" expression="True"/>
+                    </then>
+                    <else>
+                        <assign variable="inputappoint" expression="False"/>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot; 1 - Stock 1: /  2 - Stock 2: / 3 - Stock 3 / 4 -Stock 4  /&quot;" newline="True"/>
+            <declare name="Chosen" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please select a number of the service type that you want to choose: &quot;" newline="True"/>
+            <input variable="Chosen"/>
+            <output expression="&quot;You have chosen &quot; &amp; Chosen" newline="True"/>
+            <output expression="&quot;Enter Price of the Stock you choose&quot;" newline="True"/>
+            <declare name="Stock" type="Integer" array="False" size=""/>
+            <input variable="Stock"/>
+            <output expression="&quot;The Price of the Stock: &quot; &amp; Stock" newline="True"/>
+            <declare name="discount" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <assign variable="discount" expression="Stock * 2 / 100"/>
+            <assign variable="total" expression="Stock - discount"/>
+            <output expression="&quot;==============================================&quot;" newline="True"/>
+            <output expression="&quot;You Have Availed Stock &quot; &amp; Chosen" newline="True"/>
+            <output expression="&quot;Your Price total is: &quot; &amp; Stock" newline="True"/>
+            <output expression="&quot;================10% DISCOUNT==================&quot;" newline="True"/>
+            <output expression="&quot;Your Invoice total is: &quot; &amp; total" newline="True"/>
+            <output expression="&quot;==PLEASE CHECK YOUR EMAIL FOR RECEIPT DETAILS= &quot; &amp; address" newline="True"/>
+            <output expression="&quot;====THANK YOU FOR AVAILING OUR SERVICE!!======&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

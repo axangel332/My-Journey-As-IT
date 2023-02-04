@@ -1,0 +1,9 @@
+Electrical_Repairs:
+
+Battery connection problems = 2500 Pesos     Alternator problems = 3000 Pesos
+Dashboard problems = 2000 Pesos
+
+Electrical Worker:
+
+S1 = 8 available        S3 = 3 available people
+S2 = 2 available

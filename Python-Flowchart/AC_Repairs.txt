@@ -1,0 +1,10 @@
+AC_Repairs:
+
+Condenser Repair  = 5000 Pesos     Condenser Replacement = 6000 Pesos
+Compressor Repair = 5000 Pesos     Compressor Replacement = 8000 Pesos
+
+AC_Repairs Woker:
+
+S1 = 6 available           S4 = 3 available
+S2 = 5 available
+S3 = 2 available
