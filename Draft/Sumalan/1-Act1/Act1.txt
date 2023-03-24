@@ -1,0 +1,211 @@
+C:\Users\student>cd\
+
+C:\>md Act1_Sumalan
+
+C:\>cd Act1_Sumalan
+
+C:\Act1_Sumalan>md 1
+
+C:\Act1_Sumalan>md 2
+
+C:\Act1_Sumalan>md 3
+
+C:\Act1_Sumalan>cd 1
+
+C:\Act1_Sumalan\1>md S
+
+C:\Act1_Sumalan\1>cd S
+
+C:\Act1_Sumalan\1\S>md U
+
+C:\Act1_Sumalan\1\S>cd U
+
+C:\Act1_Sumalan\1\S\U>md U
+
+C:\Act1_Sumalan\1\S\U>cd U
+
+C:\Act1_Sumalan\1\S\U\U>cd..
+
+C:\Act1_Sumalan\1\S\U>rd U
+
+C:\Act1_Sumalan\1\S\U>md M
+
+C:\Act1_Sumalan\1\S\U>cd M
+
+C:\Act1_Sumalan\1\S\U\M>md A
+
+C:\Act1_Sumalan\1\S\U\M>cd A
+
+C:\Act1_Sumalan\1\S\U\M\A>md L
+
+C:\Act1_Sumalan\1\S\U\M\A>cd
+C:\Act1_Sumalan\1\S\U\M\A
+
+C:\Act1_Sumalan\1\S\U\M\A>cd L
+
+C:\Act1_Sumalan\1\S\U\M\A\L>Md A
+
+C:\Act1_Sumalan\1\S\U\M\A\L>cd A
+
+C:\Act1_Sumalan\1\S\U\M\A\L\A>md N
+
+C:\Act1_Sumalan\1\S\U\M\A\L\A>cd..
+
+C:\Act1_Sumalan\1\S\U\M\A\L>cd..
+
+C:\Act1_Sumalan\1\S\U\M\A>cd..
+
+C:\Act1_Sumalan\1\S\U\M>cd..
+
+C:\Act1_Sumalan\1\S\U>cd..
+
+C:\Act1_Sumalan\1\S>cd..
+
+C:\Act1_Sumalan\1>cd..
+
+C:\Act1_Sumalan>tree
+Folder PATH listing
+Volume serial number is CEDB-F9CA
+C:.
+├───1
+│   └───S
+│       └───U
+│           └───M
+│               └───A
+│                   └───L
+│                       └───A
+│                           └───N
+├───2
+└───3
+
+C:\Act1_Sumalan>cd 2
+
+C:\Act1_Sumalan\2>md A
+
+C:\Act1_Sumalan\2>cd A
+
+C:\Act1_Sumalan\2\A>md R
+
+C:\Act1_Sumalan\2\A>cd R
+
+C:\Act1_Sumalan\2\A\R>md I
+
+C:\Act1_Sumalan\2\A\R>cd I
+
+C:\Act1_Sumalan\2\A\R\I>md E
+
+C:\Act1_Sumalan\2\A\R\I>cd E
+
+C:\Act1_Sumalan\2\A\R\I\E>md L
+
+C:\Act1_Sumalan\2\A\R\I\E>cd..
+
+C:\Act1_Sumalan\2\A\R\I>cd..
+
+C:\Act1_Sumalan\2\A\R>cd..
+
+C:\Act1_Sumalan\2\A>cd..
+
+C:\Act1_Sumalan\2>cd..
+
+C:\Act1_Sumalan>tree
+Folder PATH listing
+Volume serial number is CEDB-F9CA
+C:.
+├───1
+│   └───S
+│       └───U
+│           └───M
+│               └───A
+│                   └───L
+│                       └───A
+│                           └───N
+├───2
+│   └───A
+│       └───R
+│           └───I
+│               └───E
+│                   └───L
+└───3
+
+C:\Act1_Sumalan>cd 3
+
+C:\Act1_Sumalan\3>md R
+
+C:\Act1_Sumalan\3>cd R
+
+C:\Act1_Sumalan\3\R>md E
+
+C:\Act1_Sumalan\3\R>cd E
+
+C:\Act1_Sumalan\3\R\E>md N
+
+C:\Act1_Sumalan\3\R\E>cd B
+The system cannot find the path specified.
+
+C:\Act1_Sumalan\3\R\E>cd N
+
+C:\Act1_Sumalan\3\R\E\N>md E
+
+C:\Act1_Sumalan\3\R\E\N>cd E
+
+C:\Act1_Sumalan\3\R\E\N\E>md G
+
+C:\Act1_Sumalan\3\R\E\N\E>cd G
+
+C:\Act1_Sumalan\3\R\E\N\E\G>cd G
+The system cannot find the path specified.
+
+C:\Act1_Sumalan\3\R\E\N\E\G>md A
+
+C:\Act1_Sumalan\3\R\E\N\E\G>cd A
+
+C:\Act1_Sumalan\3\R\E\N\E\G\A>md D
+
+C:\Act1_Sumalan\3\R\E\N\E\G\A>cd D
+
+C:\Act1_Sumalan\3\R\E\N\E\G\A\D>md O
+
+C:\Act1_Sumalan\3\R\E\N\E\G\A\D>cd..
+
+C:\Act1_Sumalan\3\R\E\N\E\G\A>cd..
+
+C:\Act1_Sumalan\3\R\E\N\E\G>cd..
+
+C:\Act1_Sumalan\3\R\E\N\E>cd..
+
+C:\Act1_Sumalan\3\R\E\N>cd..
+
+C:\Act1_Sumalan\3\R\E>cd..
+
+C:\Act1_Sumalan\3\R>cd..
+
+C:\Act1_Sumalan\3>cd..
+
+C:\Act1_Sumalan>tree
+Folder PATH listing
+Volume serial number is CEDB-F9CA
+C:.
+├───1
+│   └───S
+│       └───U
+│           └───M
+│               └───A
+│                   └───L
+│                       └───A
+│                           └───N
+├───2
+│   └───A
+│       └───R
+│           └───I
+│               └───E
+│                   └───L
+└───3
+    └───R
+        └───E
+            └───N
+                └───E
+                    └───G
+                        └───A
+                            └───D
+                                └───O
