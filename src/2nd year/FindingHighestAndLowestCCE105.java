@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class FindingHighestAndLowestCCE104 {
+public class FindingHighestAndLowestCCE105 {
 	public static void main(String[] args) {
 		String inputFilePath = "input.txt";
 		String outputFilePath = "output.txt";
